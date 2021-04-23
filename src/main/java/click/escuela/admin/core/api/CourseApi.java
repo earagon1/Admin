@@ -8,6 +8,6 @@ import lombok.Setter;
 @Setter
 public class CourseApi {
 
-	private String name;
+	Private String name;
 	private List<String> students;
 }
