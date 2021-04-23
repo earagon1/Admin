@@ -29,12 +29,12 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 @RequestMapping(path = "/school/{schoolId}/student")
 public class StudentController {
 
-	/*@Autowired
+	@Autowired
 	private StudentServiceImpl studentService;
 	
 	@Operation(summary = "Get student by schoolId", responses = {
 			@ApiResponse(responseCode = "200", content = @Content(mediaType = "application/json", schema = @Schema(implementation = StudentDTO.class))) })
- 	@GetMapping(value = "")	*/
+ 	@GetMapping(value = "")	
 	public ResponseEntity<?> getBySchool(@PathVariable("schoolId") String schoolId) throws TransactionException {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body(studentService.getBySchool(schoolId));
 	}
