@@ -26,6 +26,6 @@ public interface StudentController {
 	public String create(@PathVariable("schoolId") String schoolId, @RequestBody @Validated StudentApi studentApi) throws TransactionException;
 
   @PutMapping(value = "/click-escuela/student-core/school/{schoolId}/student")
-	publllic String update(@PathVariable("schoolId") String schoolId,@RequestBody @Validated StudentUpdateApi studentUpdateApi) throws TransactionException;
+	public String update(@PathVariable("schoolId") String schoolId,@RequestBody @Validated StudentUpdateApi studentUpdateApi) throws TransactionException;
 	
 }
