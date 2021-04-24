@@ -1,6 +1,5 @@
 package click.escuela.admin.core.api;
-package click.escuela.admin.core.api;
-package click.escuela.admin.core.api;
+
 /*kfdhkhfdk*/
 import java.util.List;
 import lombok.Getter;
