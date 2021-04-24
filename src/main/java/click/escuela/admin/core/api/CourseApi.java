@@ -10,5 +10,6 @@ import lombok.Setter;
 public class CourseApi {
 	private String name;
 	private List<String> students;
+	public String name2;
 }
 /*kfdhkhfdk*//*kfdhkhfdk*//*kfdhkhfdk*//*kfdhkhfdk*//*kfdhkhfdk*/
