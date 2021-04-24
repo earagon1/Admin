@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - evelin
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
